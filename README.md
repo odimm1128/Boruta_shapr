@@ -10,7 +10,6 @@ This repository demonstrates how to combine `tuneRanger`, `ranger`, `treeshap`, 
 | --- | --- |
 | `boruta_shap_pipeline.R` | Core helpers and `run_boruta_shap()` wrapper that tunes a `ranger` model, computes SHAP importance with `treeshap`, and runs Boruta with the custom importance. |
 | `boruta_shap_tests.R` | Example/test script that exercises the pipeline on both a classification task (`iris`) and a regression task (`mtcars`). |
-| `.Rproj`, `.gitignore` | Standard RStudio project files (optional). |
 
 ## Requirements
 
